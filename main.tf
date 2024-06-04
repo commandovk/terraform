@@ -1,7 +1,7 @@
 provider "aws" {
   region = "us-east-1"
 }
-*/
+*//
 module "vpc" {
     source = "./module/vpc"
     this_vpc_cidr_block = "12.11.0.0/16"
