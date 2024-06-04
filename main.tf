@@ -18,7 +18,7 @@ module "vpc" {
     this_def_Route_example_cidr_block = "0.0.0.0/0"
     this_def_Route_example_tag = "default" 
 } 
-
+/*
 
 module "ec2" {
     source = "./module/ec2"
